@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F2E147A-A7A9-4202-B83C-305AD5CB3D7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_NYCBANK", "src\API_NYCBANK\API_NYCBANK.csproj", "{C4D94A7B-041C-47A3-85AE-390A90C140A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_NYCBANK_Tests", "API_NYCBANK_Tests\API_NYCBANK_Tests.csproj", "{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D94A7B-041C-47A3-85AE-390A90C140A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D94A7B-041C-47A3-85AE-390A90C140A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D94A7B-041C-47A3-85AE-390A90C140A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D94A7B-041C-47A3-85AE-390A90C140A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4D94A7B-041C-47A3-85AE-390A90C140A7} = {8F2E147A-A7A9-4202-B83C-305AD5CB3D7A}
+		{7DE3AE61-F9BC-46BD-99F4-4B2B04A44169} = {8F2E147A-A7A9-4202-B83C-305AD5CB3D7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E1DC91C-6B37-4A3D-8045-1B483182454F}
+	EndGlobalSection
+EndGlobal
